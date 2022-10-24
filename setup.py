@@ -3,7 +3,7 @@ from distutils.core import setup, Extension
 neoscrypt_module = Extension('neoscrypt',
                                sources = ['neoscryptmodule.c',
                                           'neoscrypt.c'],
-                               extra_compile_args=['-fpic --shared'],
+                               extra_compile_args=['-fpic', '--shared'],
                                include_dirs=['.'])
 
 setup (name = 'neoscrypt',
