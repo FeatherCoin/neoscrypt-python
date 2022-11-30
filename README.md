@@ -1,4 +1,4 @@
-# nesoscrypt
+# neoscrypt
 Neoscrypt hash in C wrapped in python module
 
 It can be installed or built with python 2 or 3. Just use the right python version to install or build.
